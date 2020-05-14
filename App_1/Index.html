@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- BOOTSTRAP CDN LINKS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="custom.js"></script>
+    <!-- APP ICON -->
+    <link rel="icon" href="Images/Icon.png">
+    <!-- APP TITLE -->
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container container-form">
+        
+        <div class="col-9 mx-auto col-md-10"> 
+            <div class="to-do">
+                <h1> Todo App</h1>
+                <div>
+                    <input type="text" class="form-control" placeholder="Title..." id="name" >
+                    <button type="submit" onClick="add_list()" class="btn btn-primary">Add</button>
+                </div>        
+            </div>
+        </div>
+        
+        <div class="col-12 mx-auto col-md-12">
+            <div class="list">
+                <ol id="mylist">
+                </ol>
+            </div>
+        </div> 
+    </div>
+
+</body>
+</html>
