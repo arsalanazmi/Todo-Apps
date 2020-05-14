@@ -1,0 +1,31 @@
+body{
+    background: url('./Images/Background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container > div > div {
+    border:15px ridge rgb(129, 129, 129);
+    background-color: rgb(90, 130, 167);
+}
+h1{
+    text-decoration: underline;
+}
+.card{
+    background: #ecebeb;
+}
+span{
+    cursor: pointer;
+}
+/* Set all odd list items to a different color (zebra-stripes) */
+ol li:nth-child(odd) {
+    background: #f9f9f9;
+}
+ol li:nth-child(even) {
+    background: #d6d6d6;
+}
+/* Darker background-color on hover */
+ol li:hover {
+    background: rgb(148, 148, 148);
+}
